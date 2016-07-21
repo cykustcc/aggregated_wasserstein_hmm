@@ -1,4 +1,4 @@
-__M__inimized __A__ggregated __W__asserstein for __H__idden __M__arkov __M__odels
+**M**inimized **A**ggregated **W**asserstein for **H**idden **M**arkov **M**odels
 ===========
 Minimized Aggregated Wasserstein is an alternative to traditional KL based distance for measuring the dissimilarity between hidden Markov Models.
 

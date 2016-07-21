@@ -1,0 +1,337 @@
+27/27_04.amc,Alaskan vacation	
+27/27_08.amc,Alaskan vacation	
+27/27_09.amc,Alaskan vacation	
+28/28_03.amc,Alaskan vacation	
+28/28_07.amc,Alaskan vacation	
+29/29_04.amc,Alaskan vacation	
+29/29_05.amc,Alaskan vacation	
+29/29_09.amc,Alaskan vacation	
+29/29_11.amc,Alaskan vacation	
+29/29_12.amc,Alaskan vacation	
+29/29_13.amc,Alaskan vacation	
+30/30_03.amc,Alaskan vacation	
+30/30_04.amc,Alaskan vacation	
+30/30_09.amc,Alaskan vacation	
+30/30_11.amc,Alaskan vacation	
+30/30_12.amc,Alaskan vacation	
+31/31_03.amc,Alaskan vacation	
+31/31_07.amc,Alaskan vacation	
+31/31_09.amc,Alaskan vacation	
+31/31_10.amc,Alaskan vacation	
+32/32_05.amc,Alaskan vacation	
+32/32_09.amc,Alaskan vacation	
+32/32_11.amc,Alaskan vacation	
+32/32_12.amc,Alaskan vacation	
+118/118_01.amc,Jump	
+118/118_02.amc,Jump	
+118/118_03.amc,Jump	
+118/118_04.amc,Jump	
+118/118_05.amc,Jump	
+118/118_06.amc,Jump	
+118/118_07.amc,Jump	
+118/118_08.amc,Jump	
+118/118_09.amc,Jump	
+118/118_10.amc,Jump	
+118/118_11.amc,Jump	
+118/118_12.amc,Jump	
+118/118_13.amc,Jump	
+118/118_14.amc,Jump	
+118/118_15.amc,Jump	
+118/118_16.amc,Jump	
+118/118_17.amc,Jump	
+118/118_18.amc,Jump	
+118/118_19.amc,Jump	
+118/118_20.amc,Jump	
+118/118_21.amc,Jump	
+118/118_22.amc,Jump	
+118/118_23.amc,Jump	
+118/118_24.amc,Jump	
+118/118_25.amc,Jump	
+118/118_26.amc,Jump	
+118/118_27.amc,Jump	
+118/118_28.amc,Jump	
+118/118_29.amc,Jump	
+118/118_30.amc,Jump	
+138/138_11.amc,Story	
+138/138_12.amc,Story	
+138/138_13.amc,Story	
+138/138_14.amc,Story	
+138/138_15.amc,Story	
+138/138_16.amc,Story	
+138/138_17.amc,Story	
+138/138_18.amc,Story	
+138/138_19.amc,Story	
+138/138_20.amc,Story	
+138/138_21.amc,Story	
+138/138_22.amc,Story	
+138/138_23.amc,Story	
+138/138_24.amc,Story	
+138/138_25.amc,Story	
+138/138_26.amc,Story	
+138/138_27.amc,Story	
+138/138_28.amc,Story	
+138/138_29.amc,Story	
+138/138_30.amc,Story	
+138/138_31.amc,Story	
+138/138_32.amc,Story	
+138/138_33.amc,Story	
+138/138_34.amc,Story	
+138/138_35.amc,Story	
+138/138_36.amc,Story	
+138/138_37.amc,Story	
+138/138_38.amc,Story	
+138/138_39.amc,Story	
+138/138_40.amc,Story	
+138/138_41.amc,Story	
+138/138_42.amc,Story	
+138/138_43.amc,Story	
+138/138_44.amc,Story	
+138/138_45.amc,Story	
+138/138_46.amc,Story	
+138/138_47.amc,Story	
+138/138_48.amc,Story	
+138/138_49.amc,Story	
+138/138_50.amc,Story	
+138/138_51.amc,Story	
+138/138_52.amc,Story	
+138/138_53.amc,Story	
+138/138_54.amc,Story	
+138/138_55.amc,Story	
+106/106_01.amc,clean
+106/106_02.amc,clean
+106/106_03.amc,clean
+106/106_04.amc,clean
+106/106_05.amc,clean
+106/106_06.amc,clean
+106/106_07.amc,clean
+106/106_08.amc,clean
+106/106_09.amc,clean
+106/106_10.amc,clean
+106/106_11.amc,clean
+106/106_12.amc,clean
+106/106_13.amc,clean
+106/106_14.amc,clean
+106/106_16.amc,clean
+106/106_17.amc,clean
+106/106_18.amc,clean
+106/106_19.amc,clean
+106/106_20.amc,clean
+106/106_22.amc,clean
+106/106_23.amc,clean
+106/106_24.amc,clean
+106/106_25.amc,clean
+106/106_26.amc,clean
+106/106_27.amc,clean
+106/106_28.amc,clean
+106/106_29.amc,clean
+106/106_30.amc,clean
+106/106_31.amc,clean
+106/106_32.amc,clean
+106/106_33.amc,clean
+106/106_34.amc,clean
+122/122_01.amc,clean
+122/122_02.amc,clean
+122/122_03.amc,clean
+122/122_04.amc,clean
+122/122_05.amc,clean
+122/122_06.amc,clean
+122/122_07.amc,clean
+122/122_08.amc,clean
+122/122_09.amc,clean
+122/122_10.amc,clean
+122/122_12.amc,clean
+122/122_13.amc,clean
+122/122_14.amc,clean
+122/122_15.amc,clean
+122/122_16.amc,clean
+122/122_17.amc,clean
+122/122_18.amc,clean
+122/122_19.amc,clean
+122/122_20.amc,clean
+122/122_21.amc,clean
+122/122_22.amc,clean
+122/122_23.amc,clean
+122/122_24.amc,clean
+122/122_25.amc,clean
+122/122_26.amc,clean
+122/122_27.amc,clean
+122/122_28.amc,clean
+122/122_29.amc,clean
+122/122_30.amc,clean
+122/122_31.amc,clean
+122/122_32.amc,clean
+122/122_33.amc,clean
+122/122_34.amc,clean
+122/122_35.amc,clean
+122/122_36.amc,clean
+122/122_37.amc,clean
+122/122_38.amc,clean
+122/122_39.amc,clean
+122/122_40.amc,clean
+122/122_41.amc,clean
+122/122_42.amc,clean
+122/122_43.amc,clean
+122/122_44.amc,clean
+122/122_45.amc,clean
+122/122_46.amc,clean
+122/122_47.amc,clean
+122/122_48.amc,clean
+122/122_49.amc,clean
+122/122_50.amc,clean
+122/122_51.amc,clean
+122/122_52.amc,clean
+122/122_53.amc,clean
+122/122_54.amc,clean
+122/122_55.amc,clean
+122/122_56.amc,clean
+122/122_57.amc,clean
+122/122_59.amc,clean
+122/122_60.amc,clean
+122/122_61.amc,clean
+122/122_62.amc,clean
+122/122_63.amc,clean
+122/122_64.amc,clean
+122/122_65.amc,clean
+122/122_66.amc,clean
+122/122_67.amc,clean
+122/122_68.amc,clean
+60/60_01.amc,salsa dance
+60/60_02.amc,salsa dance
+60/60_03.amc,salsa dance
+60/60_04.amc,salsa dance
+60/60_05.amc,salsa dance
+60/60_06.amc,salsa dance
+60/60_07.amc,salsa dance
+60/60_08.amc,salsa dance
+60/60_09.amc,salsa dance
+60/60_10.amc,salsa dance
+60/60_11.amc,salsa dance
+60/60_12.amc,salsa dance
+60/60_13.amc,salsa dance
+60/60_14.amc,salsa dance
+60/60_15.amc,salsa dance
+61/61_01.amc,salsa dance
+61/61_02.amc,salsa dance
+61/61_03.amc,salsa dance
+61/61_04.amc,salsa dance
+61/61_05.amc,salsa dance
+61/61_06.amc,salsa dance
+61/61_07.amc,salsa dance
+61/61_08.amc,salsa dance
+61/61_09.amc,salsa dance
+61/61_10.amc,salsa dance
+61/61_11.amc,salsa dance
+61/61_12.amc,salsa dance
+61/61_13.amc,salsa dance
+61/61_14.amc,salsa dance
+61/61_15.amc,salsa dance
+02/02_01.amc,walk	
+02/02_02.amc,walk	
+05/05_01.amc,walk	
+06/06_01.amc,walk	
+07/07_01.amc,walk	
+07/07_02.amc,walk	
+07/07_03.amc,walk	
+07/07_06.amc,walk	
+07/07_07.amc,walk	
+07/07_08.amc,walk	
+07/07_09.amc,walk	
+07/07_10.amc,walk	
+07/07_11.amc,walk	
+08/08_01.amc,walk	
+08/08_02.amc,walk	
+08/08_03.amc,walk	
+08/08_06.amc,walk	
+08/08_08.amc,walk	
+08/08_09.amc,walk	
+08/08_10.amc,walk	
+10/10_04.amc,walk	
+12/12_01.amc,walk	
+12/12_02.amc,walk	
+12/12_03.amc,walk	
+26/26_01.amc,walk	
+27/27_01.amc,walk	
+29/29_01.amc,walk	
+32/32_01.amc,walk	
+32/32_02.amc,walk	
+35/35_01.amc,walk	
+35/35_02.amc,walk	
+35/35_03.amc,walk	
+35/35_04.amc,walk	
+35/35_05.amc,walk	
+35/35_06.amc,walk	
+35/35_07.amc,walk	
+35/35_08.amc,walk	
+35/35_09.amc,walk	
+35/35_10.amc,walk	
+35/35_11.amc,walk	
+35/35_12.amc,walk	
+35/35_13.amc,walk	
+35/35_14.amc,walk	
+35/35_15.amc,walk	
+35/35_16.amc,walk	
+35/35_28.amc,walk	
+35/35_29.amc,walk	
+35/35_30.amc,walk	
+35/35_31.amc,walk	
+35/35_32.amc,walk	
+35/35_33.amc,walk	
+35/35_34.amc,walk	
+38/38_01.amc,walk	
+38/38_02.amc,walk	
+39/39_01.amc,walk	
+39/39_02.amc,walk	
+39/39_03.amc,walk	
+39/39_04.amc,walk	
+39/39_05.amc,walk	
+39/39_06.amc,walk	
+39/39_07.amc,walk	
+39/39_08.amc,walk	
+39/39_09.amc,walk	
+39/39_10.amc,walk	
+39/39_12.amc,walk	
+39/39_13.amc,walk	
+39/39_14.amc,walk	
+43/43_01.amc,walk	
+45/45_01.amc,walk	
+46/46_01.amc,walk	
+49/49_01.amc,walk	
+55/55_04.amc,walk	
+81/81_03.amc,walk	
+03/03_01.amc,walk on uneven terrain	
+03/03_02.amc,walk on uneven terrain	
+03/03_03.amc,walk on uneven terrain	
+03/03_04.amc,walk on uneven terrain	
+36/36_01.amc,walk on uneven terrain	
+36/36_04.amc,walk on uneven terrain	
+36/36_05.amc,walk on uneven terrain	
+36/36_06.amc,walk on uneven terrain	
+36/36_07.amc,walk on uneven terrain	
+36/36_08.amc,walk on uneven terrain	
+36/36_10.amc,walk on uneven terrain	
+36/36_11.amc,walk on uneven terrain	
+36/36_12.amc,walk on uneven terrain	
+36/36_13.amc,walk on uneven terrain	
+36/36_14.amc,walk on uneven terrain	
+36/36_15.amc,walk on uneven terrain	
+36/36_16.amc,walk on uneven terrain	
+36/36_17.amc,walk on uneven terrain	
+36/36_18.amc,walk on uneven terrain	
+36/36_19.amc,walk on uneven terrain	
+36/36_20.amc,walk on uneven terrain	
+36/36_21.amc,walk on uneven terrain	
+36/36_22.amc,walk on uneven terrain	
+36/36_23.amc,walk on uneven terrain	
+36/36_24.amc,walk on uneven terrain	
+36/36_25.amc,walk on uneven terrain	
+36/36_26.amc,walk on uneven terrain	
+36/36_27.amc,walk on uneven terrain	
+36/36_28.amc,walk on uneven terrain	
+36/36_29.amc,walk on uneven terrain	
+36/36_30.amc,walk on uneven terrain	
+36/36_31.amc,walk on uneven terrain	
+36/36_32.amc,walk on uneven terrain	
+36/36_33.amc,walk on uneven terrain	
+36/36_34.amc,walk on uneven terrain	
+36/36_35.amc,walk on uneven terrain	
+36/36_36.amc,walk on uneven terrain	

@@ -1,6 +1,6 @@
-Minimized Aggregated Wasserstein for Hidden Markov Models
+Aggregated Wasserstein Metric and State Registration for Hidden Markov Models
 ===========
-Minimized Aggregated Wasserstein is an alternative to traditional KL based distance for measuring the dissimilarity between hidden Markov Models.
+Aggregated Wasserstein is an alternative to traditional KL based distance for measuring the dissimilarity between hidden Markov Models.
 
 Please see our ECCV 2016 paper for technical details:
 

@@ -23,8 +23,6 @@ global default_options
 default_options = optimset('Display','off', 'Diagnostics','off');
 warning('off','optim:linprog:AlgOptsWillError')
 
-% addpath('/Users/MAC/Documents/MATLAB/mosek/7/toolbox/r2012a/');
-
 global problemMap problemSet
 problemMap = containers.Map('KeyType', 'double', 'ValueType', 'double');
 problemSet = {};

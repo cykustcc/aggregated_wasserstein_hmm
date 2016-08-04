@@ -1,4 +1,4 @@
-`%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
 %% Perturb trans_mat
 %%%%%%%%%%%%%%%%%%%
 %% Test trans_mat generator

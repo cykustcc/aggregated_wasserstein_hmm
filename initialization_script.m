@@ -4,8 +4,8 @@
 % Contact: cykustc@gmail.com
 os_str=computer;
 % if strcmp(os_str,'MACI64')
-cd('/Users/MAC/Dropbox/GMMHMM/aggregated_wasserstein_hmm');
 gmmhmm_projectroot='/Users/MAC/Dropbox/GMMHMM/aggregated_wasserstein_hmm';
+cd(gmmhmm_projectroot);
 % elseif strcmp(os_str,'GLNXA64')
 % cd('/gpfs/home/yzc147/work/GMMHMM');
 % gmmhmm_projectroot='/gpfs/home/yzc147/work/GMMHMM';
@@ -23,7 +23,7 @@ global default_options
 default_options = optimset('Display','off', 'Diagnostics','off');
 warning('off','optim:linprog:AlgOptsWillError')
 
-addpath('/Users/MAC/Documents/MATLAB/mosek/7/toolbox/r2012a/');
+% addpath('/Users/MAC/Documents/MATLAB/mosek/7/toolbox/r2012a/');
 
 global problemMap problemSet
 problemMap = containers.Map('KeyType', 'double', 'ValueType', 'double');

@@ -25,3 +25,4 @@ perturbation_exps_mu;
 perturbation_exps_sigma;
 perturbation_exps_transmat;
 ```
+All resulting figures are also saved in the *imgs* folder.

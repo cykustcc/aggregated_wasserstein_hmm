@@ -1,7 +1,7 @@
 function draw_multiple_precrecl_multimethods(para,title_string,filename,gmmhmm_projectroot,store_path,varargin)
     num_of_class=size(para,2);
     num_of_precrecl_lines=size(para{1},2);
-    disp(num_of_precrecl_lines);
+%     disp(num_of_precrecl_lines);
     figure('Name',['Prec. Recl. Plot for',title_string],'Visible','On');
     hold on;
     hline = findobj(gcf, 'type', 'line');
@@ -11,7 +11,7 @@ function draw_multiple_precrecl_multimethods(para,title_string,filename,gmmhmm_p
     for class_idx = 1:num_of_class
         for nn = 1:num_of_precrecl_lines
             if (nargin > 5 & length(para{class_idx}{nn})==4)
-                disp('hello');
+%                 disp('hello');
                 Distance=(1-varargin{1})*para{class_idx}{nn}{1}+varargin{1}*para{class_idx}{nn}{2};
                 ground_truth_class=para{class_idx}{nn}{3};
                 legend_string=para{class_idx}{nn}{4};lengends{(class_idx-1)*num_of_precrecl_lines+nn}=legend_string;
@@ -49,7 +49,7 @@ function draw_multiple_precrecl_multimethods(para,title_string,filename,gmmhmm_p
     ylim([0,1]);
     ylabel('Precision', 'fontsize', 20);
     set(gca, 'linewidth', 3, 'fontsize', 15);
-    disp(lengends);
+%     disp(lengends);
 	legend(lengends, 'location', 'northeast');%'southwest'
     mkdir_if_not_exist([gmmhmm_projectroot,store_path]);
     print([gmmhmm_projectroot,store_path,filename,'_prec_recl_overall.png'], '-dpng','-r300');

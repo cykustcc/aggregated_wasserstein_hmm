@@ -8,8 +8,8 @@ eg.covariance=cat(3,cov_factor*[1,0;0,1]);
 gmm_eg0 = gmm(eg.dim,1,eg.mu,eg.covariance,[1]);
 a=gmm_eg0.rndlist(SAMPLE_SIZE);
 
-gmm_eg0.plot_rndsamples(50);
-print([gmmhmm_projectroot,'/imgs/wass_vs_KL/','samples.png'], '-dpng','-r100');
+% gmm_eg0.plot_rndsamples(50);
+% print([gmmhmm_projectroot,'/imgs/wass_vs_KL/','samples.png'], '-dpng','-r100');
 
 % disp(a);
 disp_factor=1;

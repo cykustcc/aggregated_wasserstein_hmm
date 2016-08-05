@@ -9,7 +9,7 @@ Please see our ECCV 2016 (spotlight) paper for technical details:
 The list of motions we used for our motion retrieval and motion classification experiments is provided in *index_to_use.txt*
 
 ## Usage (tested on MATLAB 2015a for Mac OSX)
-Edit line 7 in initialization_script.m to set the path where this project resides. Then run:
+Edit line 26 in initialization_script.m to set the path to the [mosek](https://www.mosek.com). (You can refer to [mosek installation guide](http://docs.mosek.com/7.0/toolsinstall.pdf), [mosek MATLAB mannual](http://docs.mosek.com/7.0/toolbox/Installation.html) for more detailed instruction) Then run:
 ```
 clear;
 initialization_script;

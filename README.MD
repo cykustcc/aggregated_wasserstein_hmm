@@ -8,7 +8,7 @@ Please see our ECCV 2016 (spotlight) paper for technical details:
 
 ```
 @inproceedings{chen2016distance,
-  title={A Distance for HMMs based on Aggregated Wasserstein Metric and State Registration},
+  title={A Distance for {HMM}s based on Aggregated {W}asserstein Metric and State Registration},
   author={Chen, Yukun and Ye, Jianbo and Li, Jia},
   booktitle={Proceedings of The 14th European Conference on Computer Vision (ECCV)},
   page={},

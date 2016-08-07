@@ -1,4 +1,4 @@
-function [ distance ] = gmmhmm_dist_likelihood_raw( gmmhmm1,data )
+function [ distance ] = gmmhmm_KL(_raw( gmmhmm1,data )
 % gmmhmm likelihood distance using raw data, 
 % The query sample should be gmmhmm1
 % for more details, please refer to: B.-H. F. Juang and L. R. Rabiner, A probabilistic distance measure for hidden markov models,? AT&T technical journal, vol. 64, no. 2, pp. 391?408, 1985. 

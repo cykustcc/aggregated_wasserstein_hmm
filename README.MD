@@ -16,7 +16,7 @@ initialization_script;
 ```
 To reproduce Figure 1 in the paper, run:
 ```
-syntheticdata_exp;
+syntheticdata_exp_mu;
 syntheticdata_exp_sigma;
 ```
 To reproduce Figure 3 in the paper (and Figure 6 in the supplement material), run:
@@ -24,5 +24,10 @@ To reproduce Figure 3 in the paper (and Figure 6 in the supplement material), ru
 perturbation_exps_mu;
 perturbation_exps_sigma;
 perturbation_exps_transmat;
+```
+
+Or to reproduce all above, run:
+```
+run_all;
 ```
 All resulting figures are also saved in the *imgs* folder.

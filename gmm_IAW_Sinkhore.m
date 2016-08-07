@@ -1,4 +1,4 @@
-function [ fval, matching ] = gmm_wass_dist_mc_BADMM_posterior( gmm1,gmm2,sample_size )
+function [ fval, matching ] = gmm_IAW_Sinkhore( gmm1,gmm2,sample_size )
 
 
 
@@ -32,5 +32,5 @@ function [ fval, matching ] = gmm_wass_dist_mc_BADMM_posterior( gmm1,gmm2,sample
 % %         matching=bsxfun(@times,matching,1./sum(matching,1)./gmm2.weights)');
 %     end
 %     [~,matching]=OptimalTransport_IBP_Sinkhorn(matching, gmm1.weights', gmm2.weights', 1., 100);
-    fval=gmm_wass_dist_naive_withmatchinginput(gmm1,gmm2,matching);
+    fval=gmm_MAW_givenMatching(gmm1,gmm2,matching);
 end

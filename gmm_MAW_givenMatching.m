@@ -1,4 +1,4 @@
-function fval = gmm_wass_dist_naive_withmatchinginput( gmm1,gmm2,matching)
+function fval = gmm_MAW_givenMatching( gmm1,gmm2,matching)
 %GMM_WASS_NAIVE Summary of this function goes here
 %   Detailed explanation goes here
 % [f,PI,lambda]=wasserstein(gmm1.weights,gmm2.weights);

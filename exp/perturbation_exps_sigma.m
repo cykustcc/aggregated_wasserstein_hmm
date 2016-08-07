@@ -40,8 +40,8 @@ for factor_idx = 1:length(factors)
     for i=1:dist_matrix_dim
         for j=1:i
             D = pdist2(gmmhmm_models(i),gmmhmm_models(j),'gaussianMixture');
-            [dist,matching]=gmm_wass_dist_naive(gmmhmm_models(i),gmmhmm_models(j),D);
-            dist2 = gmmhmm_dist_naive_transmatdist(gmmhmm_models(i),gmmhmm_models(j),matching,D);
+            [dist,matching]=gmm_MAW(gmmhmm_models(i),gmmhmm_models(j),D);
+            dist2 = gmmhmm_MAW_transmat(gmmhmm_models(i),gmmhmm_models(j),matching,D);
             dist_matrix(i,j)=dist;
             dist_matrix(j,i)=dist;
             dist_matrix2(i,j)=dist2;
@@ -104,7 +104,7 @@ for factor_idx = 1:length(factors)
     dist_matrix=zeros(dist_matrix_dim);
     for i=1:dist_matrix_dim
         for j=1:i
-            [dist]=gmmhmm_dist_likelihood(gmmhmm_models(i),gmmhmm_models(j),500);
+            [dist]=gmmhmm_KL(gmmhmm_models(i),gmmhmm_models(j),500);
             dist_matrix(i,j)=dist;
             dist_matrix(j,i)=dist;
         end
@@ -167,14 +167,14 @@ for factor_idx = 1:length(factors)
     dist_matrix_D23=zeros(dist_matrix_dim);
     for i=1:dist_matrix_dim
         for j=1:i
-            [dist, matching] = gmm_wass_dist_mc_BADMM_posterior(gmmhmm_models(i),gmmhmm_models(j),BADMM_SAMPLES);
+            [dist, matching] = gmm_IAW_Sinkhore(gmmhmm_models(i),gmmhmm_models(j),BADMM_SAMPLES);
             dist_matrix_D1(i,j)=dist;
             dist_matrix_D1(j,i)=dist;
             if any(isnan(matching(:)))
                 error('%f',matching);
             end
             D = pdist2(gmmhmm_models(i),gmmhmm_models(j),'gaussianMixture');
-            [dist2]=gmmhmm_dist_naive_transmatdist(gmmhmm_models(i),gmmhmm_models(j),matching, D);
+            [dist2]=gmmhmm_MAW_transmat(gmmhmm_models(i),gmmhmm_models(j),matching, D);
             dist_matrix_D23(i,j)=dist2;
             dist_matrix_D23(j,i)=dist2;
         end

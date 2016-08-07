@@ -29,8 +29,8 @@ for i=1:GMM_NUM
         obj=gmdistribution.fit(data',1);
         estimated_gmm_eg0=gmm(eg.dim,1,obj.mu',cat(3,obj.Sigma),[1]);
  
-        wass_Dist(j,i)=gmm_wass_dist_naive(gmm_egi,estimated_gmm_eg0);
-%         gt_wass_dist=gmm_wass_dist_naive(gmm_egi,gmm_eg0);
+        wass_Dist(j,i)=gmm_MAW(gmm_egi,estimated_gmm_eg0);
+%         gt_wass_dist=gmm_MAW(gmm_egi,gmm_eg0);
         
         
         KL_Dist(j,i)=gaussian_KL(gmm_egi.mu,gmm_egi.covariance,estimated_gmm_eg0.mu,estimated_gmm_eg0.covariance);

@@ -1,4 +1,4 @@
-function [fval, x, lambda] = gmm_wass_dist_naive( gmm1,gmm2, D )
+function [fval, x, lambda] = gmm_MAW( gmm1,gmm2, D )
 %GMM_WASS_NAIVE Summary of this function goes here
 %   Detailed explanation goes here
 % [f,PI,lambda]=wasserstein(gmm1.weights,gmm2.weights);

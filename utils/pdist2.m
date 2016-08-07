@@ -137,8 +137,14 @@ end
 function D = distGaussianMixture(X, Y)
 D=zeros(X.mode_num,Y.mode_num);
 for i=1:X.mode_num
+    cov1=X.covariance(:,:,i);
+    sqrt_cov1=sqrtm(cov1);    
     for j=1:Y.mode_num
-        D(i,j)=wasserstein_gaussian(X.mu(:,i),X.covariance(:,:,i),Y.mu(:,j),Y.covariance(:,:,j));
+        cov2=Y.covariance(:,:,j);
+        D(i,j)=norm(X.mu(:,i)-Y.mu(:,j))^2+...
+            trace(cov1+cov2-2*sqrtm(sqrt_cov1*cov2*sqrt_cov1));
+        D(i,j)=real(sqrt(D(i,j)));
+        %D(i,j)=wasserstein_gaussian(X.mu(:,i),X.covariance(:,:,i),Y.mu(:,j),Y.covariance(:,:,j));
 %         disp(D(i,j))
     end
 end

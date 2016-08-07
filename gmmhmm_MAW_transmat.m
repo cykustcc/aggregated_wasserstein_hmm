@@ -1,4 +1,4 @@
-function [Wassmat_dist] = gmmhmm_dist_naive_transmatdist(gmmhmm1,gmmhmm2,matching, D)
+function [Wassmat_dist] = gmmhmm_MAW_transmat(gmmhmm1,gmmhmm2,matching, D)
 %GMMHMM_DIST_NAIVE naive way of computing gmmhmm distance
     matching=get_rid_of_weight_all0rowcol_matching(matching,gmmhmm1,gmmhmm2);
     gmmhmm1=gmmhmm1.get_rid_of_weight_0_component();
@@ -53,7 +53,7 @@ function [Wassmat_dist] = gmmhmm_dist_naive_transmatdist(gmmhmm1,gmmhmm2,matchin
         if nargin < 4
             gmm_trans_mat_1_i=gmm(gmmhmm2.dim,gmmhmm2.mode_num,gmmhmm2.mu,gmmhmm2.covariance,trans_mat_1to2(i,:));
             gmm_trans_mat_2_i=gmm(gmmhmm2.dim,gmmhmm2.mode_num,gmmhmm2.mu,gmmhmm2.covariance,gmmhmm2.trans_mat(i,:));
-            [mat_dist, x, lambda] = gmm_wass_dist_naive(gmm_trans_mat_1_i,gmm_trans_mat_2_i);
+            [mat_dist, x, lambda] = gmm_MAW(gmm_trans_mat_1_i,gmm_trans_mat_2_i);
         else
             [~, mat_dist, x, lambda] = OptimalTransport_LP(D, trans_mat_1to2(i,:)',gmmhmm2.trans_mat(i,:)');
         end
@@ -100,7 +100,7 @@ function [Wassmat_dist] = gmmhmm_dist_naive_transmatdist(gmmhmm1,gmmhmm2,matchin
             gmm_trans_mat_1_i=gmm(gmmhmm1.dim,gmmhmm1.mode_num,gmmhmm1.mu,gmmhmm1.covariance,gmmhmm1.trans_mat(i,:));
             gmm_trans_mat_2_i=gmm(gmmhmm1.dim,gmmhmm1.mode_num,gmmhmm1.mu,gmmhmm1.covariance,trans_mat_2to1(i,:));
         
-            [mat_dist, x, lambda] = gmm_wass_dist_naive(gmm_trans_mat_1_i,gmm_trans_mat_2_i);
+            [mat_dist, x, lambda] = gmm_MAW(gmm_trans_mat_1_i,gmm_trans_mat_2_i);
         else
             [~, mat_dist, x, lambda] = OptimalTransport_LP(D,gmmhmm1.trans_mat(i,:)',trans_mat_2to1(i,:)');
         end

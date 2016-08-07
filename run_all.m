@@ -1,0 +1,6 @@
+syntheticdata_exp_mu;
+syntheticdata_exp_sigma;
+
+perturbation_exps_mu;
+perturbation_exps_sigma;
+perturbation_exps_transmat;

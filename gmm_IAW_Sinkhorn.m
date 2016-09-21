@@ -1,6 +1,4 @@
-function [ fval, matching ] = gmm_IAW_Sinkhore( gmm1,gmm2,sample_size )
-
-
+function [ fval, matching ] = gmm_IAW_Sinkhorn( gmm1,gmm2,sample_size )
 
     [X,~]=gmm1.rndlist_complist_gen(sample_size);
     [Y,~]=gmm2.rndlist_complist_gen(sample_size);
@@ -12,11 +10,9 @@ function [ fval, matching ] = gmm_IAW_Sinkhore( gmm1,gmm2,sample_size )
     wY=ones(1,m);
     
     D = pdist2(X', Y', 'sqeuclidean');
-    if (sample_size < 500)
-        [~, x] = OptimalTransport_IBP_Sinkhorn(D, wX', wY',2.*mean(D(:)) / 100,300);
-    else
-        [~, x] = OptimalTransport_BADMM(D,wX',wY',2.*mean(D(:)),300);
-    end
+
+    [~, x] = OptimalTransport_IBP_Sinkhorn(D, wX', wY',2.*mean(D(:)) / 100,300);
+
     X_softmembership=gmm1.softmembership(X);
     Y_softmembership=gmm1.softmembership(Y);
     

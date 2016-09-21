@@ -12,6 +12,7 @@ cd(gmmhmm_projectroot);
 % end
 addpath(genpath('./utils'));
 addpath(genpath('./exp'));
+addpath(genpath('./src'));
 
 
 %optim setting:

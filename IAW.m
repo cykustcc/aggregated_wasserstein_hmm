@@ -9,14 +9,24 @@ function dist = IAW( gmmhmm1, gmmhmm2, alpha, options)
 % alpha            -- parameter for weighted sum of the difference between
 %                     two marginal GMMs of two GMMHMMs and the difference 
 %                     between the transition matrices of two GMMHMMs.
-% option           -- shared:
-%                       option.method: {'badmm', 'sinkhorn'}
-%                       option.sample_size: size of samples generated from
+%                     IAW = (1-alpha)*gmm_diff + alpha*trans_mat_diff
+% optoins          -- shared:
+%                       options.method: {'badmm', 'sinkhorn'}
+%                       options.sample_size: size of samples generated from
 %                                           two marginal GMMs, (default:
 %                                           100)
+%                       options.max_iter: max iteration for solving the 
+%                                        optimal transport problem. (defa-
+%                                        -ult: 300 )
 %
 %                     method specific options:
-%
+%                       'sinkhorn':
+%                       options.sinkhorn_epsilon (default: 0.01)
+%                       options.sinkhorn_max_iters (default: 300)
+%                       'badmm':
+%                       options.badmm_max_iters (default: 300)
+
+
     method = 'sinkhorn';
     if isfield(options, 'method')
         method = options.method;
@@ -28,9 +38,9 @@ function dist = IAW( gmmhmm1, gmmhmm2, alpha, options)
     end
     
     if strcmp(method, 'sinkhorn') 
-        [dist, matching] = gmm_IAW_Sinkhorn(gmmhmm1,gmmhmm2,sample_size);
+        [dist, matching] = gmm_IAW_Sinkhorn(gmmhmm1,gmmhmm2,sample_size, options);
     elseif strcmp(method, 'badmm')
-        [dist, matching] = gmm_IAW_badmm(gmmhmm1,gmmhmm2,sample_size);
+        [dist, matching] = gmm_IAW_BADMM(gmmhmm1,gmmhmm2,sample_size, options);
     end 
     
     if any(isnan(matching(:)))

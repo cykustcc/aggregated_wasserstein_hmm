@@ -9,6 +9,7 @@ function dist = MAW( gmmhmm1, gmmhmm2, alpha)
 % alpha            -- parameter for weighted sum of the difference between
 %                     two marginal GMMs of two GMMHMMs and the difference 
 %                     between the transition matrices of two GMMHMMs.
+%                     MAW = (1-alpha)*gmm_diff + alpha*trans_mat_diff
 % option           -- shared:
 %                       option.method: {'badmm', 'sinkhorn'}
 %

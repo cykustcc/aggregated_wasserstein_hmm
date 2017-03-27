@@ -183,6 +183,12 @@ concatenated_para{2}=paras;
 load([gmmhmm_projectroot,'/data/perturbaion_exp/','change_sigma_IAW.mat']);
 concatenated_para{3}=paras;
 
+
+draw_multiple_precrecl({concatenated_para{1}{1},concatenated_para{2}{1},concatenated_para{3}{1}},'Varying \Sigma, \Delta \mu=0.2','change_mu_MAW_vs_KL_vs_IAW_deltasigma0_2',gmmhmm_projectroot,'/imgs/perturbaion_exp/9fig/',0)
+draw_multiple_precrecl({concatenated_para{1}{2},concatenated_para{2}{2},concatenated_para{3}{2}},'Varying \Sigma, \Delta \mu=0.4','change_mu_MAW_vs_KL_vs_IAW_deltasigma0_4',gmmhmm_projectroot,'/imgs/perturbaion_exp/9fig/',0)
+draw_multiple_precrecl({concatenated_para{1}{3},concatenated_para{2}{3},concatenated_para{3}{3}},'Varying \Sigma, \Delta \mu=0.6','change_mu_MAW_vs_KL_vs_IAW_deltasigma0_6',gmmhmm_projectroot,'/imgs/perturbaion_exp/9fig/',0)
+
+
 %% Distance of seqs from HMM1 to HMM1 - HMM5
 draw_varianceplot({concatenated_para{1}{1},concatenated_para{2}{1},concatenated_para{3}{1}},'Varying \Sigma, \Delta \sigma=0.2','change_sigma_MAW_vs_KL_vs_IAW_deltasigma0_2',gmmhmm_projectroot,'/imgs/varianceplot/9fig/',0)
 draw_varianceplot({concatenated_para{1}{2},concatenated_para{2}{2},concatenated_para{3}{2}},'Varying \Sigma, \Delta \sigma=0.4','change_sigma_MAW_vs_KL_vs_IAW_deltasigma0_4',gmmhmm_projectroot,'/imgs/varianceplot/9fig/',0)

@@ -194,11 +194,11 @@ load([gmmhmm_projectroot,'/data/perturbaion_exp/','change_transmat_MAW.mat']);
 concatenated_para{2}=paras;
 load([gmmhmm_projectroot,'/data/perturbaion_exp/','change_transmat_IAW.mat']);
 concatenated_para{3}=paras;
-draw_multiple_precrecl({concatenated_para{1}{1},concatenated_para{2}{1},concatenated_para{3}{1}},'Varying Trans. Mat., \Delta t=0.3','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_3','/Users/MAC/Dropbox/GMMHMM/src/','imgs/perturbaion_exp/9fig/',1)
-draw_multiple_precrecl({concatenated_para{1}{2},concatenated_para{2}{2},concatenated_para{3}{2}},'Varying Trans. Mat., \Delta t=0.6','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_6','/Users/MAC/Dropbox/GMMHMM/src/','imgs/perturbaion_exp/9fig/',1)
-draw_multiple_precrecl({concatenated_para{1}{3},concatenated_para{2}{3},concatenated_para{3}{3}},'Varying Trans. Mat., \Delta t=0.9','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_9','/Users/MAC/Dropbox/GMMHMM/src/','imgs/perturbaion_exp/9fig/',1)
+draw_multiple_precrecl({concatenated_para{1}{1},concatenated_para{2}{1},concatenated_para{3}{1}},'Varying Trans. Mat., \Delta t=0.3','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_3',gmmhmm_projectroot,'/imgs/perturbaion_exp/9fig/',1)
+draw_multiple_precrecl({concatenated_para{1}{2},concatenated_para{2}{2},concatenated_para{3}{2}},'Varying Trans. Mat., \Delta t=0.6','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_6',gmmhmm_projectroot,'/imgs/perturbaion_exp/9fig/',1)
+draw_multiple_precrecl({concatenated_para{1}{3},concatenated_para{2}{3},concatenated_para{3}{3}},'Varying Trans. Mat., \Delta t=0.9','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_9',gmmhmm_projectroot,'/imgs/perturbaion_exp/9fig/',1)
 
-draw_varianceplot({concatenated_para{1}{1},concatenated_para{2}{1},concatenated_para{3}{1}},'Varying Trans. Mat., \Delta t=0.3','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_3','/Users/MAC/Dropbox/GMMHMM/src/','imgs/varianceplot/9fig/',1)
-draw_varianceplot({concatenated_para{1}{2},concatenated_para{2}{2},concatenated_para{3}{2}},'Varying Trans. Mat., \Delta t=0.6','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_6','/Users/MAC/Dropbox/GMMHMM/src/','imgs/varianceplot/9fig/',1)
-draw_varianceplot({concatenated_para{1}{3},concatenated_para{2}{3},concatenated_para{3}{3}},'Varying Trans. Mat., \Delta t=0.9','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_9','/Users/MAC/Dropbox/GMMHMM/src/','imgs/varianceplot/9fig/',1)
+draw_varianceplot({concatenated_para{1}{1},concatenated_para{2}{1},concatenated_para{3}{1}},'Varying Trans. Mat., \Delta t=0.3','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_3',gmmhmm_projectroot,'/imgs/varianceplot/9fig/',1)
+draw_varianceplot({concatenated_para{1}{2},concatenated_para{2}{2},concatenated_para{3}{2}},'Varying Trans. Mat., \Delta t=0.6','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_6',gmmhmm_projectroot,'/imgs/varianceplot/9fig/',1)
+draw_varianceplot({concatenated_para{1}{3},concatenated_para{2}{3},concatenated_para{3}{3}},'Varying Trans. Mat., \Delta t=0.9','change_transmat_naive_vs_likelihood_vs_BADMM_deltat0_9',gmmhmm_projectroot,'/imgs/varianceplot/9fig/',1)
 
